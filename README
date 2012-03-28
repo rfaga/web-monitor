@@ -1,0 +1,5 @@
+I created this tool to monitor web servers and tweet in my account when some problem is found. While I use zabbix to do a complete server monitoring, I found that way as the easiest to check if some pages and resources are working properly (like testing login in a website).
+
+Using twitter can be nice if you configure your account to send you SMS and email, so I get both communications when some problem is detected.
+
+The simplicity of this code makes easy to anyone get it and rewrite it, see monitor.py which has all the code. This project depends on the mechanize package, oauth2 and twitter lib, which are all included in this repo.
